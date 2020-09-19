@@ -25,3 +25,4 @@ router.get("/api/workouts",(req, res)=>{
 })
 
 //route to 
+router.get("api/workouts/range")
