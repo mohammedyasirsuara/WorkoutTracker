@@ -20,7 +20,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
 
 //routes
 require("./routes/htmlRoutes.js")(app);
