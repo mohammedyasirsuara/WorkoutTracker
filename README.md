@@ -12,9 +12,8 @@ https://hidden-taiga-93596.herokuapp.com/
 
 ## Video Demo
 
-- Below is a link to a video demoing the web application
-- https://drive.google.com/file/d/14jmaySdgdzUp2pKlk9Dl6gLQJe3yp4fL/view?usp=sharing
+- Below are screenshots of what the deployed application looks like
 
-## Gif Demo
+![home](./public/assets/home.png)
 
-![gif](./demo/Note-Taker.gif)
+![dash](./public/assets/dashboard.png)
