@@ -10,7 +10,7 @@ A workout tracker created using express and stores and retrieves data from a dat
 
 https://hidden-taiga-93596.herokuapp.com/
 
-## Video Demo
+## Application Screenshot
 
 - Below are screenshots of what the deployed application looks like
 
